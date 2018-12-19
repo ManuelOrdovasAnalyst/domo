@@ -1,6 +1,6 @@
 
-<input type="submit" id="light" value="" onclick="submitLight()" style="width:100%;height:50%;background:url(LEDON.png) no-repeat;background-size: 100vw 48vh;">
-<input type="submit" id="power" value="" onclick="submitPower()" style="width:100%;height:50%;background:url(ENERON.png) no-repeat;background-size: 100vw 48vh;">
+<input type="submit" id="light" value="" onclick="submitLight()" style="width:100%;height:50%;background:url(https://github.com/ManuelOrdovasAnalyst/domo/blob/master/LEDON.png) no-repeat;background-size: 100vw 48vh;">
+<input type="submit" id="power" value="" onclick="submitPower()" style="width:100%;height:50%;background:url(https://github.com/ManuelOrdovasAnalyst/domo/blob/master/ENERON.png) no-repeat;background-size: 100vw 48vh;">
 
 
 
@@ -17,9 +17,9 @@
         xhr.open('get', 'http://192.168.1.17:5000/a', true);
         xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
         xhr.send();
-		document.getElementById("light").style = 'width:100%;height:50%;background:url(LEDOFF.png) no-repeat;background-size: 100vw 48vh;';
+		document.getElementById("light").style = 'width:100%;height:50%;background:url(https://github.com/ManuelOrdovasAnalyst/domo/blob/master/LEDOFF.png) no-repeat;background-size: 100vw 48vh;';
 		await sleep(100);
-		document.getElementById("light").style = 'width:100%;height:50%;background:url(LEDON.png) no-repeat;background-size: 100vw 48vh;';
+		document.getElementById("light").style = 'width:100%;height:50%;background:url(https://github.com/ManuelOrdovasAnalyst/domo/blob/master/LEDON.png) no-repeat;background-size: 100vw 48vh;';
 
 
     }
@@ -28,9 +28,9 @@
         xhr.open('get', 'http://localhost:5000/b', true);
         xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
         xhr.send();
-		document.getElementById("power").style = 'width:100%;height:50%;background:url(ENEROFF.png) no-repeat;background-size: 100vw 48vh;';
+		document.getElementById("power").style = 'width:100%;height:50%;background:url(https://github.com/ManuelOrdovasAnalyst/domo/blob/master/ENEROFF.png) no-repeat;background-size: 100vw 48vh;';
 		await sleep(100);
-		document.getElementById("power").style = 'width:100%;height:50%;background:url(ENERON.png) no-repeat;background-size: 100vw 48vh;';
+		document.getElementById("power").style = 'width:100%;height:50%;background:url(https://github.com/ManuelOrdovasAnalyst/domo/blob/master/ENERON.png) no-repeat;background-size: 100vw 48vh;';
 
     }
 
